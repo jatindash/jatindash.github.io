@@ -31,7 +31,7 @@
 
 .slogan {
    margin-left:15%;
-   text-align:;
+  
 }
 
 
@@ -604,6 +604,7 @@ a.text-hover-dark:focus, a.text-hover-dark:hover {
     transition: opacity 0.15s linear;
     opacity: 0;
   }
+	
 }
 
 @media (min-width: 768px) {
@@ -991,9 +992,11 @@ input.text-white::placeholder {
   vertical-align: text-bottom;
   stroke: currentColor;
   stroke-width: 3;
+/*
   --layer1: currentColor;
   --layer2: currentColor;
   --layer3: currentColor;
+*/
 }
 
 .svg-icon.svg-icon-light {
@@ -1122,7 +1125,7 @@ section {
   border: 0px;
   z-index: -1;
   overflow: hidden;
-  overflow: hidden;
+/*  overflow: hidden;*/
 }
 
 /*
@@ -1814,6 +1817,19 @@ a.text-dark:hover, a.text-dark:focus {
 .nav-pills .show > .nav-link {
   color: #fff;
   background-color: #5954cb;
+}
+
+@media only screen and (max-width: 600px) {
+	.font-weight-bold {
+  text-align: center;
+	}
+	.slogan{
+		text-align: justify;
+	}
+	.ol-space{
+		margin-top: -10%;
+		
+	}
 }
 
 
